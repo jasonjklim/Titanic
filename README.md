@@ -2,7 +2,7 @@
 
 This week in class we went over some basic statistics, learned some Python programming concepts, and also learned how to navigate files, packages, and libraries using the command line. Great start! At this point you should be chomping at the bit to do some Data Science. If so, good - because it's time for Project 1!
 
-For our first project, we're going to take a look at the
+For our first project, we're going to take a look at the Titanic manifest. We'll be exploring this data to see what we can learn using the mad skills covered in class.
 
 ## Prework
 Fork and clone this repo. At the end of this project, you'll submit a pull request containing an iPython notebook that answers the questions below.

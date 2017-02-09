@@ -31,7 +31,7 @@ Bonus: Leonardo Dicaprio's character was fictional, and thus not on the manifest
 3. What was the survival rate for each 'Pclass'?
 4. Did any reverends survive?
 5. What is the survival rate for IDK cabins ("¯\\_(ツ)_/¯")
-6. What is the survival rate for rows where `Age` is empty?
+6. What is the survival rate for people whose `Age` is empty?
 7. What is the survival rate for each port of embarkation?
 8. What is the survival rate for children (under 12) in each `Pclass`?
 9. Did the captain of the ship survive? Is he on the list?

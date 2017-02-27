@@ -10,7 +10,7 @@ Fork and clone this repo. At the end of this project, you'll submit a pull reque
 ## Step 1: Reading the data
 
 1. Go to [https://www.kaggle.com/c/titanic/data](https://www.kaggle.com/c/titanic/data)
-2. If you scroll down the page a bit, you should see a data dictionary explaining each of the columns. Take a minute to familiarize yourself with how the csv is structured.
+2. If you scroll down the page a bit, you'll see a data dictionary explaining each of the columns. Take a minute to familiarize yourself with how the csv is structured.
 4. Download the `train.csv` file into this project
 3. Create an iPython notebook and load the csv into pandas.
 
@@ -19,6 +19,8 @@ Fork and clone this repo. At the end of this project, you'll submit a pull reque
 2. Which column has the most `NaN` values? How many cells in that column are empty?
 3. Delete all rows where `Embarked` is empty
 4. Fill all empty cabins with **¯\\_(ツ)_/¯**
+
+Note: `NaN`, empty, and missing are synonymous.
 
 ## Step 3: Feature extraction
 1.  There are two columns that pertain to how many family members are on the boat for a given person. Create a new column called `FamilyCount` which will be the sum of those two columns.

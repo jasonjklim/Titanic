@@ -17,9 +17,7 @@ Fork and clone this repo. At the end of this project, you'll submit a pull reque
 1. What column has the most missing data? How many cells in that column are empty?
 2. What column has the second most missing data? How many cells in that column are empty?
 3. Delete all rows where 'Embarked' is empty
-4. Fill all empty cabins with "¯\\_(ツ)_/¯"
-
-Bonus: Leonardo Dicaprio's character was fictional, and thus not on the manifest. Add a row to the data frame with his info.
+4. Fill all empty cabins with **¯\\_(ツ)_/¯**
 
 ## Step 3: Feature extraction
 1.  We have two columns that deal with family: `SibSp` and `Parch`. Create a new column called `FamilyCount` which will be the sum of `SibSp` and `Parch`. For example, if I have 2 `SibSp` and 1 `Parch` then `FamilyCount` should be 3.
@@ -38,3 +36,11 @@ Bonus: Leonardo Dicaprio's character was fictional, and thus not on the manifest
 10. Of all the people that died, who had the most expensive ticket? How much did it cost?
 
 Bonus: Using the data, come up with the most interesting finding (e.g. All kids under the age of 3 survived). Winner gets a prize!
+
+## Step 5: Plotting
+1. Create a pairplot in seaborn, using `Survived` as the hue
+2. Create a heatmap showing how each feature/label correlates with one another
+3. Create a box and whisker plot to learn more about `Age`
+4. Create a histogram of ticket prices
+
+Bonus: For each `Pclass`, create a violin plot for `Age`

@@ -42,13 +42,5 @@ Note: `NaN`, empty, and missing are synonymous.
 10. Of all the people that died, who had the most expensive ticket? How much did it cost?
 11. Does having family on the boat help or hurt your chances of survival?
 
-Bonus: Using the data, see if you can find an interesting survival statistic. Winner gets a prize!
-
 ## Step 5: Plotting
-1. Create a pairplot in seaborn, using `Survived` as the hue
-2. Create a heatmap showing how each feature/label correlates with one another
-3. Create a box and whisker plot to learn more about `Age`
-4. Create a histogram of ticket prices. Use `Survived` as the hue
-5. Create a bar chart showing the survival rates for each port of embarkation
-
-Bonus: For each `Pclass`, create a violin plot for `Age`
+Using Tableau, create a story showing the survival rates of different groups of people. It's fine if a handful of charts are basic (Gender, Age, etc), but what we're really looking for is something beneath the surface.

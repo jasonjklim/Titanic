@@ -1,8 +1,8 @@
-# Project 1: Titanic
+# Pandas Lab: Titanic
 
-This week was all about Pandas and plotting. At this point you should be chomping at the bit to do some Data Science. If so, good - because it's time for Project 1!
+This week was all about Pandas and plotting. At this point you should be chomping at the bit to do some Data Science. If so, good!
 
-For our first project, we're going to take a look at the Titanic manifest. We'll be exploring this data to see what we can learn regarding the survival rates of different groups of people.
+For this lab, we're going to take a look at the Titanic manifest. We'll be exploring this data to see what we can learn regarding the survival rates of different groups of people.
 
 ## Prework
 Fork and clone this repo. At the end of this project, you'll submit a pull request containing an iPython notebook that answers the questions below.
@@ -43,4 +43,4 @@ Note: `NaN`, empty, and missing are synonymous.
 11. Does having family on the boat help or hurt your chances of survival?
 
 ## Step 5: Plotting
-Using Tableau, create a story showing the survival rates of different groups of people. It's fine if a handful of charts are basic (Gender, Age, etc), but what we're really looking for is something beneath the surface.
+Using Matplotlib and Seaborn, create several charts showing the survival rates of different groups of people. It's fine if a handful of charts are basic (Gender, Age, etc), but what we're really looking for is something beneath the surface.

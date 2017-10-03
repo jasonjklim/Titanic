@@ -25,9 +25,10 @@ Note: `NaN`, empty, and missing are synonymous.
 ## Step 3: Feature extraction
 1.  There are two columns that pertain to how many family members are on the boat for a given person. Create a new column called `FamilyCount` which will be the sum of those two columns.
 2. Reverends have a special title in their name. Create a column called `IsReverend`: 1 if they're a preacher, 0 if they're not.
-3. In order to feed our training data into a classification algorithm, we need to convert our categories into 1's and 0's.
+3. In order to feed our training data into a classification algorithm, we need to convert our categories into 1's and 0's using `pd.get_dummies`
   - Create 3 columns: `Embarked_C`, `Embarked_Q` and `Embarked_S`. These columns will have 1's and 0's that correspond to the `C`, `Q` and `S` values in the `Embarked` column
   - Do the same thing for `Sex`
+  - BONUS: Extract the title from everyone's name and create dummy columns
 
 ## Step 4: Exploratory analysis
 1. What was the survival rate overall?
